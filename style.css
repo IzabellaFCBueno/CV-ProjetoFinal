@@ -1,0 +1,233 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding-block: 10px;
+    display: flex;
+}
+
+a {
+  background-image: linear-gradient(
+    to right,
+    #cbe2eb,
+    #c9448d 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before{
+  content: '';
+  background: #f5f3f4;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+a:hover {
+ background-position: 0;
+}
+
+a:hover::before{
+  width: 100%;
+}
+
+
+header {
+    background: #9843ad;
+    padding: 20px 0 1px 20px;
+}
+
+.foto-iza {
+    position: absolute;
+    width: 200px;
+    margin: 0 0 0 170px;
+    border-radius: 30%;
+}
+
+.perfil {
+    display: block;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    color: white
+    
+
+}
+.perfil h1 {
+    position: relative;
+    text-align: left;
+    font-size: 29px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black
+  
+}
+
+.indice li{
+    font-size: 18px;
+    text-align: right;
+    cursor: pointer zoom-out;
+    color: white;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    padding-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.lista-contatos {
+    padding-bottom: 10px;
+    margin: 10px;
+    line-height: 1ch ;
+}
+
+.lista-contatos img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.sobre-mim {
+    padding: 20px 120px 20px 120px;
+    align-items: center;
+}
+
+.sobre-mim p{
+    text-align: justify;
+    line-height: 2ch ;
+}
+
+.desktop {
+    width: 260px;
+    float: left;
+    margin: 0 20px 20px 10px;
+}
+
+.experiencias {
+    padding: 20px 120px 20px 120px;
+    align-items: center;
+    margin: 20px
+}
+
+.conteudo-experiencias {
+    text-align: justify;
+    line-height: 2ch ;
+}
+
+.conteudo-habilidades {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.conteudo-habilidades img {
+    width: 150px;
+    padding: 1ch;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #9843ad;
+    padding: 40px 0;
+}
+
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+.rodape img {
+    width: 35px;
+    display: inline;
+    padding-bottom: 10px;
+
+}
+
+.imagens-final img {
+    width: 50px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.educacao {
+    width: 940px;
+    margin: 0 50px 50px 50px;
+    padding: 50px 0;
+    
+}
+
+.formacoes li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5% 10px;
+    padding: 30px 20px ;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.formacoes li:hover {
+    border-color: #c719b8;
+}
+
+.formacoes li:active {
+    border-color: #8c0825;
+}
+
+.formacoes li:hover h2 {
+    font-size: 34px;
+}
+
+.educacao h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
